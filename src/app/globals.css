@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
 @theme {
-  --color-menubg: #BEB7A4;
+  --color-menubg: #000000;
   --font-head: "playfair_display",  Italic
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Services({ data }) {
   return (
-    <div className='w-full h-full bg-cover bg-center bg-no-repeat' style = {{ backgroundImage: data.img}}>
+    <div className='w-full h-full bg-cover bg-center bg-no-repeat' style = {{ backgroundImage: data.img}} id='Services'>
       <p className='text-4xl text-white font-serif tracking-widest text-center pt-12'>{data.title}</p>
       <p className='border-b-2 border-white mx-auto w-32 py-4'></p>
       <div className='flex lg:flex-row flex-col items-center justify-center py-14 gap-16 text-center'>

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function OurWork({ data }) {
   return (
-    <div className='w-full text-center my-16'>
+    <div className='w-full text-center my-16' id='Our Work'>
         <p className='text-4xl font-thin tracking-widest'>{data.title}</p>
         <p className='mx-auto border-b-2 py-2 px-14 w-fit border-black'></p>
         <p className='text-xl pt-6 font-light'>{data.subtitle}</p>

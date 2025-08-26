@@ -7,27 +7,27 @@ export const navbar_data = {
     menu: [
         {
             title: "Home",
-            path: "/Home",
+            path: "#Home",
         },
         {
             title: "Services",
-            path: "/Services",
+            path: "#Services",
         },
         {
             title: "Our Work",
-            path: "/Home",
+            path: "#Our Work",
         },
         {
             title: "About Us",
-            path: "/About Us",
+            path: "#About Us",
         },
         {
             title: "Contact",
-            path: "/Contact",
+            path: "#Contact",
         },
         {
             title: "Book Online",
-            path: "/Book Online",
+            path: "#Book Online",
         },
     ],
     icon: <RiAccountCircleFill />,

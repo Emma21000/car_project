@@ -9,7 +9,7 @@ export default function Navbar({ data }) {
   }
 
   return (
-    <div className='top-0 left-0 fixed  w-full'>
+    <div className='w-full'>
       <div className='relative flex items-center lg:justify-around justify-between py-5 font-head font-thin bg-menubg text-white'>
           <h1 className='text-5xl px-8 lg:px-0'>{data.logo}</h1>
           <div className='hidden lg:flex items-center justify-center gap-8'>
