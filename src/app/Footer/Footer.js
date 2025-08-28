@@ -9,7 +9,7 @@ export default function Footer({ data }) {
                 <Link target='_blank' key={index} href={elem.path}>{elem.icons}</Link>
             ))}
         </div>
-        <p className='pt-8 tracking-widest font-serif'>{data.title} <Link href={'https://www.wix.com/?utm_campaign=vir_created_with'} className='underline underline-offset-6 font-serif' target='_blank'>Wix</Link></p>
+        <p className='pt-8 tracking-widest font-serif'>{data.title} <Link href={'https://www.wix.com/?utm_campaign=vir_created_with'} className='underline underline-offset-6 font-serif ' target='_blank'>Wix</Link></p>
     </div>
   )
 }

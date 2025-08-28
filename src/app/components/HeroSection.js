@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function HeroSection({ data }) {
   return (
-    <div className='pt-34 w-full h-[900px] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: data.img }} id='Home'>
+    <div className='pt-34 w-full h-[900px] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: data.img }} >
         <div className='flex flex-col items-center text-white'>
             <p className='text-6xl'>{data.icon}</p>
             <span className='text-5xl py-6 font-serif tracking-widest'>{data.title}</span>
