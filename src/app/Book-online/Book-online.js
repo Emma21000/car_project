@@ -5,9 +5,9 @@ import React from 'react'
 export default function Bookonline({ data }) {
   return (
     <div className='w-full h-full flex flex-col justify-center items-center my-16 '>
-        <div className='flex items-center gap-8 justify-start w-11/12'>
+        <div className='flex items-center gap-8 justify-start w-11/12 lg:my-0 my-8 lg:px-0 px-6'>
           <Link className='text-4xl cursor-pointer' href={'/'}>{data.arrowleft}</Link>
-          <p className='text-2xl tracking-widest font-thin'>{data.name}</p>
+          <p className='text-2xl tracking-widest font-thin whitespace-nowrap'>{data.name}</p>
         </div>
         <p className='text-4xl font-serif tracking-widest'>{data.title}</p>
         <p className='px-16 border-b-2 border-black mt-4'></p>
